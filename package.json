@@ -1,0 +1,32 @@
+{
+  "name": "nekoin-contracts",
+  "version": "1.0.0",
+  "description": "Nekoin",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nekoin/nekoin-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nekoin/nekoin-contracts/issues"
+  },
+  "homepage": "https://gitlab.com/nekoin/nekoin-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "chai-as-promised": "^7.1.1"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.9"
+  }
+}
